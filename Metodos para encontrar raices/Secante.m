@@ -1,4 +1,5 @@
 %metodo secante
+
 disp("Programa de metodo de la secante");
 disp("Ingrese funcion en formato f=@(x) x.^2");
 f=input("Ingrese funcion: ");
@@ -38,3 +39,5 @@ f1=fp;
 
 i=i+1;
 endwhile
+
+ 

@@ -1,4 +1,5 @@
 %punto fijo
+
 disp("Programa de metodo de el punto fijo");
 disp("Ingrese funcion en formato g=@(x) x.^2");
 g=input("Ingrese funcion: ");
@@ -29,3 +30,4 @@ p0=p;
 endwhile
 
 
+ 

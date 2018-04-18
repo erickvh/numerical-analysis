@@ -1,11 +1,12 @@
 %metodo biseccion
+
 disp("Programa de metodo de la bissecion");
 disp("Ingrese funcion en formato f=@(x) x.^2");
 f=input("Ingrese funcion: ");
 disp("Ingrese extremos a y b (no deben ser iguales)");
 do
-a=input("a: ");
-b=input("b: ");
+a=input("limite inferior (a): ");
+b=input("limite superior (b): ");
 until(a != b)
 
 if(a>b)
@@ -45,7 +46,7 @@ until(num>0)
  b=p;
  endif
  endwhile
- 
+
  
  
  

@@ -1,3 +1,4 @@
+
 disp("Programa de metodo de la posicion falsa");
 disp("Ingrese funcion en formato f=@(x) x.^2");
 f=input("Ingrese funcion: ");
@@ -48,3 +49,5 @@ endif
 p1=p;
 q1=q;
 endwhile
+
+ 

@@ -1,7 +1,7 @@
 disp("Programa para validar punto fijo");
-disp("Ingrese funcion en formato f=@(x) x.^2");
+disp("Ingrese funcion en formato g=@(x) x.^2");
 f=input("Ingrese funcion: ");
-disp("Ingrese  derivada de la funcion en formato df=@(x) 2*x");
+disp("Ingrese  derivada de la funcion en formato dg=@(x) 2*x");
 df=input("Ingrese derivada: ");
 disp("ingrese intervalos");
 a=input("extremo a: ");
@@ -14,18 +14,18 @@ endif
 intervalo=linspace(a,b);
 do
 disp("seleccione opcion");
-disp("1. f(x) segun el intervalo grafico");
-disp("2. df(x) segun el valor que comprende");
+disp("1. g(x) segun el intervalo grafico");
+disp("2. dg(x) segun el valor que comprende");
 disp("3. comprobacion final");
 disp("4. Salir");
 seleccion=input("Ingrese valor: ");
 if(seleccion==1)
 plot(intervalo,f(intervalo),intervalo,intervalo);
-title("f(x) vs intervalo");
+title("g(x) vs intervalo");
 grid();
 elseif(seleccion==2)
 plot(intervalo,df(intervalo),linspace(-1,1),linspace(-1,1));
-title("df(x)");
+title("dg(x)");
 grid();
 elseif(seleccion==3)
 bandera=true;
